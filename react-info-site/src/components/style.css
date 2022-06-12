@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #282C34;
+    background-image: url('../images/large.png');
+    background-repeat: no-repeat;
+    background-position-x: 480px;
+    background-position-y: 100px;
+    background-size: 1200px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: #20232A;
+}
+
+img{
+    width:40px;
+    margin: 10px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    color: #4ABDEE;
+    font-size: 1.5rem;
+}
+
+.right{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.title{
+    font-size: 3rem;
+    color: white;
+    margin-left: 20px;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+    font-size: 1rem;
+    margin-left: 30px;
+}
+
+ul li::before {
+    content: "\2022";  
+    color: #4ABDEE; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1.5rem;  
+    font-size: 2rem;
+  }
+

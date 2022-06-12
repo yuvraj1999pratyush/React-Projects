@@ -1,0 +1,19 @@
+.Main{
+    padding: 0px 10px;
+}
+
+.about h5, .interests h5{
+    margin-bottom: 0;
+    margin-top: 12px;
+    color: rgb(226, 225, 225);
+}
+
+.about p, .interests p{
+    margin-top: 0px;
+    font-size: 0.6rem;
+    text-justify: auto;
+}
+
+.interests h5{
+    margin-top: 8px;
+}

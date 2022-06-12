@@ -1,0 +1,11 @@
+.logo{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.logo li{
+    padding:10px;
+    color:rgb(103, 103, 103);
+}
+

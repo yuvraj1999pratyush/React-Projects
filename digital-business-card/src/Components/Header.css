@@ -1,0 +1,55 @@
+.Header{
+    
+    text-align: center;
+    
+}
+
+img{
+    width: 100%;
+    margin:0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.title{
+    text-align: center;
+}
+.title h3{
+    margin: 0;
+    color: white;
+}
+.title h5{
+    margin: -3px 0px;
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+.title p{
+    margin: 8px 0;
+    font-size: 0.6rem;
+}
+
+.email{
+    padding: 3px 5px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+   
+}
+
+.linkedin{
+    padding: 3px 5px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(50, 78, 163);
+    color: white;
+    text-align: center;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}

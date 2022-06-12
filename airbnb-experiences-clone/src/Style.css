@@ -1,0 +1,94 @@
+.grey{
+    color: rgb(108, 107, 107);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+}
+
+nav img{
+    width: 130px;
+    max-width: 150px;
+    padding: 0 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+section h1{
+    font-size: 2rem;
+    color: rgb(145, 144, 144);
+    margin: 0;
+}
+
+section p{
+    font-size: 4.5rem;
+    margin: 0;
+    font-weight: lighter;
+}
+
+section img{
+    margin-bottom: 10px;
+}
+
+.Card{
+    object-fit: cover;
+    display: flex;
+    width: 200px;
+    height: 350px;
+    margin: 30px 20px; 
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.content p{
+    font-size: 0.8rem;
+    margin: 0;
+    display: flex;
+    padding-left: 10px;
+
+
+    
+    
+}
+
+.image-div{
+    height: 250px;
+    width: 200px;
+}
+
+.image-div img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.experiences-card{
+    display: flex;
+   flex-wrap: wrap;
+}
+
+.status{
+    position: absolute;
+    background-color: white;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+

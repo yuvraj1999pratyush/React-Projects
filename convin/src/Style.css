@@ -1,0 +1,65 @@
+.Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border: 2px solid black;
+    height: 180px;
+    width: 550px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Button{
+    background-color: rgb(225, 210, 241);
+    color: rebeccapurple;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: none;
+    border-radius: 5px;
+}
+
+.card p{
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: lighter;
+    color: rgb(153, 151, 151);
+}
+
+.card h1{
+    font-size: 2rem;
+    font-weight: lighter;
+    margin: 0;
+    
+}
+
+.card img{
+    float: right;
+    margin: 0;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.button-handler{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rebeccapurple;
+}

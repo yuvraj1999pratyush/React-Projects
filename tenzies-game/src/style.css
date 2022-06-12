@@ -1,0 +1,71 @@
+.App {
+    background-color: black;
+    width: 780px;
+    height: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+main {
+    background-color: #f5f5f5;
+    width: 700px;
+    height: 700px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn {
+    margin-top: 10%;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rebeccapurple;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.btn:active {
+    transform: scale(0.98);
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+}
+
+.Die {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.Die:active {
+    transform: scale(0.98);
+}
+
+.title{
+    font-size: 4rem;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    color: rgb(179, 179, 179);
+}
